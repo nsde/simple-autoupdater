@@ -16,4 +16,4 @@ def update(from_url, to_path):
     apply(path=to_path, content=content)
 
 if __name__ == "__main__": # Demo
-    update(from_url="", to_path="demo\")
+    update(from_url="https://raw.githubusercontent.com/nsde/simple-autoupdater/main/demo/new.txt", to_path="demo\old.txt")
